@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_challenge_complete",
+  "audioGroupId":{
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.044898,
+  "name":"snd_challenge_complete",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_challenge_complete.wav",
+  "type":1,
+  "volume":1.0,
+}

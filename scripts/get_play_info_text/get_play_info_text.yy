@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"get_play_info_text",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_play_info_text",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

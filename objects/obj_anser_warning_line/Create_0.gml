@@ -1,0 +1,1 @@
+rapier = instance_create_layer(x, obj_battle_controller.box.y1 - 4, "bullets", obj_bullet_anser_stab, {above: true});
