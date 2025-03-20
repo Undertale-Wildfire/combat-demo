@@ -1,0 +1,1 @@
+// Don't draw; handled in obj_bullet_draw

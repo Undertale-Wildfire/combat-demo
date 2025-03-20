@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_blip_gerson",
+  "audioGroupId":{
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.135146,
+  "name":"snd_blip_gerson",
+  "parent":{
+    "name":"Voice Blips",
+    "path":"folders/Sounds/Sounds/Voice Blips.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_blip_gerson.wav",
+  "type":1,
+  "volume":1.0,
+}

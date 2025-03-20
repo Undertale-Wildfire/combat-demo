@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_blip_quigley",
+  "audioGroupId":{
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.0,
+  "name":"snd_blip_quigley",
+  "parent":{
+    "name":"Voice Blips",
+    "path":"folders/Sounds/Sounds/Voice Blips.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_blip_quigley.ogg",
+  "type":1,
+  "volume":1.0,
+}

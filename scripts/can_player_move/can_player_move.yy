@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"can_player_move",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"can_player_move",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

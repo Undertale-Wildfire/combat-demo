@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_dog_bark",
+  "audioGroupId":{
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.304762,
+  "name":"snd_dog_bark",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_dog_bark.wav",
+  "type":1,
+  "volume":1.0,
+}

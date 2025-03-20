@@ -1,0 +1,1 @@
+instance_create_layer(320, obj_battle_controller.box.y1 + 5, "bullets", obj_bullet_quigley_trap_big);

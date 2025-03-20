@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_bullet_bounce",
+  "audioGroupId":{
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.375011,
+  "name":"snd_bullet_bounce",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_bullet_bounce.wav",
+  "type":1,
+  "volume":1.0,
+}

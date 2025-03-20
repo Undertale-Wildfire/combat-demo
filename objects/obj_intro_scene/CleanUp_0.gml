@@ -1,0 +1,1 @@
+surface_free(static_surface);

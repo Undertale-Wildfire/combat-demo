@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_trap_trigger",
+  "audioGroupId":{
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.290181,
+  "name":"snd_trap_trigger",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_trap_trigger.wav",
+  "type":1,
+  "volume":1.0,
+}
