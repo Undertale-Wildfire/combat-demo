@@ -105,7 +105,7 @@ draw_set_color(c_white);
 if (visible_bp == 100) {
 	draw_sprite(spr_label_max, 0, bp_meter_x + 94, 405);
 } else {
-	draw_text(bp_meter_x + 94, 401, string(floor(visible_bp)) + "%");
+	draw_text(bp_meter_x + 94, 401, $"{floor(visible_bp)}%");
 }
 
 // State-specific drawing

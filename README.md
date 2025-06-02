@@ -1,14 +1,12 @@
 # Undertale Wildfire Combat Demo
 
-This is the full source code for v1.11 of the Undertale Wildfire Combat Demo. It
+This is the full source code for v1.12 of the Undertale Wildfire Combat Demo. It
 is provided as-is, to do with as you like. Any future releases will be added
 here as separate commits.
 
 ## Usage
 
-This project should be used with GameMaker 2024.11. Ensure runtime 2024.11.0.227
-is installed - the version the IDE installs by default, 2024.11.0.226, contains
-a compiler bug that prevents the game from successfully running.
+This project should be used with GameMaker 2024.13.
 
 Documentation for some of the game's internal systems is available in the
 `docs/` directory. If more support is needed, contact @pythonb5 on Discord.
@@ -26,14 +24,14 @@ any guarantees.
 ## Binaries
 
 All versions of the Combat Demo are accessible via the Undertale Wildfire
-website. Replace `v111` in the URL with the desired version. Only v1.11 has
-Windows (ARM) and Linux builds available.
+website. Replace `v112` in the URL with the desired version. Only versions from
+v1.11 on have Windows (ARM) and Linux builds available.
 
-Windows: https://undertalewildfire.com/builds/combat-demo-v111.zip
+Windows: https://undertalewildfire.com/builds/combat-demo-v112.zip
 
-Windows (ARM): https://undertalewildfire.com/builds/combat-demo-v111-arm.zip
+Windows (ARM): https://undertalewildfire.com/builds/combat-demo-v112-arm.zip
 
-Linux: https://undertalewildfire.com/builds/combat-demo-v111.AppImage
+Linux: https://undertalewildfire.com/builds/combat-demo-v112.AppImage
 
 ## Licensing
 

@@ -41,7 +41,7 @@ if (global.battle_fade_type == battle_fade_types.screen) {
 	ui_alpha = 0;
 }
 
-ui_surface = surface_create(640, 480);
+ui_surface = undefined;
 
 // Get currently equipped trinkets
 // (These aren't normally stored in an array, but we have to put them in one to display the icons.)
@@ -1338,13 +1338,15 @@ fsm.add("minigame_mash", {
 		remaining_time = 120;
 		z_timer = 0;
 		
-		bar_surface = surface_create(89, 108);
+		bar_surface = undefined;
 		
 		minigame_end = false;
 		animating = false;
 	},
 	leave: function() {
-		surface_free(bar_surface);
+		if (!is_undefined(bar_surface)) {
+			surface_free(bar_surface);
+		}
 	},
 	step: function() {
 		if (minigame_end) {
@@ -1420,6 +1422,7 @@ fsm.add("minigame_mash", {
 			draw_sprite(spr_mash_bar_mask, 0, 0, 0);
 			gpu_set_blendmode(bm_normal);
 			surface_reset_target();
+			
 			draw_surface(bar_surface, 276, 266);
 		}
 		
@@ -1678,6 +1681,16 @@ fsm.add("attack", {
 		} else {
 			obj_soul.grace_turns = 0;
 		}
+	},
+	leave: function() {
+		// These may end up as fractional values in some cases, which could add unnecessary decimals to
+		// item use text. We can't round them during the enemy's attack, or the very small increases that
+		// cause these fractional values would just round away to nothing, so instead, we round them here.
+		//
+		// Health is rounded up, since it should never show as 0.
+		// BP is rounded down, on the other hand, so that the amount shown on-screen is never exaggerated.
+		global.stats.current_health = ceil(global.stats.current_health);
+		bp = floor(bp);
 	},
 	end_step: function() {
 		if (instance_exists(pattern)) {

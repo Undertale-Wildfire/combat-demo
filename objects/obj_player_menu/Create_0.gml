@@ -402,6 +402,11 @@ fsm.add("item", {
 						item_text = [];
 						array_copy(item_text, 0, global.inventory[selected_item].drop_text, 0, array_length(global.inventory[selected_item].drop_text));
 						array_delete(global.inventory, selected_item, 1);
+						
+						if (selected_item == array_length(global.inventory)) {
+							selected_item--;
+						}
+						
 						break;
 				}
 				

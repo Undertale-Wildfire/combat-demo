@@ -67,10 +67,12 @@ fsm.add("main", {
 		
 		draw_set_color(c_gray);
 		draw_set_font(fnt_small);
+		
 		// This doesn't align right with 320...? I only noticed now that the text fills most of the screen
-		// horizontally. I think this one's on GameMaker. This is one reason I dislike using actual font files
-		// for pixel fonts; it seems alignment is often not quite as precise as I'd like.
-		draw_text(321, 458, "UNDERTALE WILDFIRE COMBAT DEMO V1.11 (C) TEAM WILDFIRE 2024-2025");
+		// horizontally. I think this one's on GameMaker. This is one reason I dislike using actual font
+		// files for pixel fonts; it seems alignment is often not quite as precise as I'd like.
+		draw_text(321, 458, "UNDERTALE WILDFIRE COMBAT DEMO V1.12 (C) TEAM WILDFIRE 2024-2025");
+		
 		draw_set_halign(fa_left);
 		draw_set_color(c_white);
 	}

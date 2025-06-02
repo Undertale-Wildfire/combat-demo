@@ -51,6 +51,7 @@ if (!surface_exists(outline_surface)) {
 
 surface_copy(outline_surface, 0, 0, above_surface);
 surface_set_target(outline_surface);
+draw_clear_alpha(c_black, 0);
 gpu_set_blendmode(bm_subtract);
 draw_rectangle(obj_battle_controller.box.x1 + 5, obj_battle_controller.box.y1 + 5, obj_battle_controller.box.x2 - 5, obj_battle_controller.box.y2 - 5, false);
 gpu_set_blendmode(bm_normal);

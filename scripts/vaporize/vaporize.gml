@@ -8,6 +8,7 @@ function vaporize(_x, _y, sprite) {
 	
 	var surface = surface_create(width, height);
 	surface_set_target(surface);
+	draw_clear_alpha(c_black, 0);
 	draw_sprite(sprite, 0, offset_x, offset_y);
 	surface_reset_target();
 	

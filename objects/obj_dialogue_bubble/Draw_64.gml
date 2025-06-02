@@ -1,8 +1,10 @@
 if (!surface_exists(surface)) {
+	// This includes extra room for the tail (12px on each side).
 	surface = surface_create(pixel_width + 24, pixel_height + 24);
 }
 
 surface_set_target(surface);
+draw_clear_alpha(c_black, 0);
 
 // Draw rounded corners
 draw_sprite(spr_dialogue_bubble_corner, 0, 13, 13);

@@ -41,7 +41,7 @@ image_speed = 0;
 draw_y = 0;
 
 static_alpha = 0;
-static_surface = surface_create(200, 110);
+static_surface = undefined;
 
 var music_beat_length = time_bpm_to_seconds(110);
 var time_move_on = music_beat_length * 27;

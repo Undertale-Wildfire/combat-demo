@@ -8,7 +8,9 @@ if (static_alpha > 0) {
 	}
 	
 	surface_set_target(static_surface);
+	draw_clear_alpha(c_black, 0);
 	draw_sprite_tiled(spr_static, irandom_range(0, 2), 0, 0);
 	surface_reset_target();
+	
 	draw_surface_ext(static_surface, x, y, 1, 1, 0, c_white, static_alpha);
 }
